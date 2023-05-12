@@ -59,7 +59,7 @@ const Main = () => {
 
   //Initializing Google Maps using useJsApiLoader
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: import.meta.env.VITE_MAP_API_KEY,
+    googleMapsApiKey: "AIzaSyAYBivEevsC3sXYWfY6n9803tvASqB0TUI",
     libraries,
   });
 
